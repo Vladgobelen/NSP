@@ -1,0 +1,25 @@
+rustc --explain E0277
+echo "# NSP" >> README.md
+git init
+git add README.md
+git push -u origin main
+git add .
+git commit -m "0.0.1"
+git branch -M main
+git remote add origin git@github.com:Vladgobelen/NSP.git
+sh updateConfigs.sh
+rustc --explain E0425
+rustc --explain E0283
+rustc --explain E0599
+cargo new test
+cargo new test1
+code test1
+vscodium test1
+cargo main.rs
+rustup component add rustfmt
+source $HOME/.cargo/env
+rustc --version
+cargo fmt
+RUST_BACKTRACE=1 cargo run
+rustup component add clippy
+exit
